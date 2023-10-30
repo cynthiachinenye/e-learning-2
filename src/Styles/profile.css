@@ -70,3 +70,31 @@
 .main-container .container img{
     width:620px;
 }
+.main-container .container .text h1{
+    color:#101130;
+    font-size:62px;
+    font-weight:700;
+
+}
+.main-container .container .text p{
+    color:#606176;
+    font-size:20px;
+    font-weight:400;
+    line-height:28px;
+    letter-spacing: -0.2px;
+    width:251px;
+}
+.main-container .container .img-container{
+    display:flex;
+    background: pink;
+
+
+}
+.main-container .container .img-container img{
+    width:170px;
+    height: 60px;
+}
+.main-container .container .img-container .img1{
+    background: #bbdcff;
+}
+
