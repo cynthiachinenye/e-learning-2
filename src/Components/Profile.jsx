@@ -13,7 +13,7 @@ const Profile = () => {
      
      </div>
      <div className='img-box'>
-     <img src="./Assets/Image and card.png"/>
+     <img src="./Assets/Image and card.png" alt="card"/>
      </div>
     </div>
     <div className='container'>
