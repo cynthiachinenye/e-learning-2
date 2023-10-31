@@ -1,0 +1,53 @@
+.main-container{
+    width:100%;
+    font-family: "Roboto", sans-serif;
+}
+.main-container .container{
+    display:flex;
+}
+.main-container .container .img-box img {
+    width:500px;
+    height:700px;
+}
+.main-container .container .content  h2{
+    font-size:30px;
+    text-transform:capitalize;
+    letter-spacing: 1;
+    width:300px;
+    padding-bottom:20px;
+    color:#101130;
+    font-weight:700;
+}
+
+.main-container .container .content-order{
+    width:300px;
+    height:200px;
+}
+.main-container .container .content-order .div-icon{
+    border: none;
+    border-radius: 10px;
+    background:rgb(115, 244, 115);
+    width:40px;
+    height: 40px;
+    
+}
+.main-container .container .content-order .icon{
+    font-size: 20px;
+    margin:10px;
+  
+
+}
+
+.main-container .container .icons{
+    display:flex;
+    flex-wrap:wrap;
+
+}
+.main-container .container .content-order h5{
+    font-size:16px;
+    padding-top:20px;
+    
+}
+.main-container .container .content-order p{
+    font-size:15px;
+}
