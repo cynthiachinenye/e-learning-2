@@ -7,7 +7,7 @@
 }
 .main-container .container .img-box img {
     width:500px;
-    height:700px;
+    height:550px;
 }
 .main-container .container .content  h2{
     font-size:30px;
@@ -48,6 +48,18 @@
     padding-top:20px;
     
 }
-.main-container .container .content-order p{
-    font-size:15px;
+.main-container .container .content-order .paragraph{
+    font-size: 15px;
+    width:200px;
+    word-break: break-all;
+}
+
+.main-container .details{
+    width: 100%;
+}
+.main-container .details .content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
 }
