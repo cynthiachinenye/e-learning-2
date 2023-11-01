@@ -70,9 +70,10 @@ const Courses = () => {
 
           <h2>How Our Online Public School Works</h2>
 
-          <button>View all courses</button>
+          <button className='btn'>View all courses</button>
 
         </div>
+
         <div className='cart'>
           <div className='img-box'>
             <img src="./Assets/Image (1).png" alt='img' />
@@ -86,19 +87,19 @@ const Courses = () => {
           </div>
 
           <div className='img-box'>
-            <img src="./Assets/Image (1).png" alt='img' />
-            <p>Hands-On Python & R In Data Science</p>
+            <img src="./Assets/cart (1).png" alt='img' />
+            <p>Science and Machine Learning Bootcamp</p>
             <div className='icons'>
               <FaMoneyCheckAlt />
               <span>1,45,690</span>
-              <RxCountdownTimer />
+              <RxCountdownTimer/>
               <span>4 months</span>
             </div>
           </div>
 
           <div className='img-box'>
             <img src="./Assets/Image (1).png" alt='img' />
-            <p>Hands-On Python & R In Data Science</p>
+            <p>The Python Mega Course:Real Applications</p>
             <div className='icons'>
               <FaMoneyCheckAlt />
               <span>1,45,690</span>

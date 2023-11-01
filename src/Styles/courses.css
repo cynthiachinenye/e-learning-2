@@ -56,10 +56,42 @@
 
 .main-container .details{
     width: 100%;
+   
 }
 .main-container .details .content{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items:center;
+    margin:20px;
+
+}
+.main-container .details .content h2{
+    font-size:40px;
+    font-weight:700;
+    width:500px;
+}
+.main-container .details .content button{
+    width:130px;
+    height:40px;
+    border:1px solid #2076FF;
+    color:#2076FF;
+    background:#fff;
+    border-radius:10px;
+    cursor:pointer;
+
+}
+.main-container .details .content .btn:hover{
+    background-color: #2076FF;
+    color:#fff;
+
+}
+.main-container .details  .cart{
+    margin:50px;
+    display:flex;
+    justify-content:space-evenly;
+}
+.main-container .details  .cart .img-box  img{
+    width:200px;
+    height:150px;
 
 }
