@@ -1,6 +1,6 @@
 import React from 'react'
 import { LuMonitorPlay, LuBookOpenCheck } from 'react-icons/lu'
-import { BsJournalBookmark } from 'react-icons/bs'
+import { BsJournalBookmark, BsFillCartPlusFill } from 'react-icons/bs'
 import { TbSocial } from 'react-icons/tb'
 import { FaMoneyCheckAlt } from 'react-icons/fa'
 import { RxCountdownTimer } from 'react-icons/rx'
@@ -76,36 +76,57 @@ const Courses = () => {
 
         <div className='cart'>
           <div className='img-box'>
-            <img src="./Assets/Image (1).png" alt='img' />
+            <img src="./Assets/cart (2).png" alt='img' />
             <p>Hands-On Python & R In Data Science</p>
             <div className='icons'>
-              <FaMoneyCheckAlt />
-              <span>1,45,690</span>
-              <RxCountdownTimer />
-              <span>4 months</span>
+              <div>
+                <FaMoneyCheckAlt className='icon' />
+                <span>1,45,690</span>
+              </div>
+              <div>
+                <RxCountdownTimer className='icon' />
+                <span>4 months</span>
+
+              </div>
+              
             </div>
+            <button><BsFillCartPlusFill /> Add to Cart</button>
           </div>
 
           <div className='img-box'>
             <img src="./Assets/cart (1).png" alt='img' />
             <p>Science and Machine Learning Bootcamp</p>
             <div className='icons'>
-              <FaMoneyCheckAlt />
-              <span>1,45,690</span>
-              <RxCountdownTimer/>
-              <span>4 months</span>
+              <div>
+                <FaMoneyCheckAlt className='icon' />
+                <span>1,45,690</span>
+              </div>
+              <div>
+                <RxCountdownTimer className='icon' />
+                <span>4 months</span>
+                
+              </div>
+              
             </div>
+            <button><BsFillCartPlusFill />Add to Cart</button>
           </div>
 
           <div className='img-box'>
             <img src="./Assets/Image (1).png" alt='img' />
             <p>The Python Mega Course:Real Applications</p>
             <div className='icons'>
-              <FaMoneyCheckAlt />
-              <span>1,45,690</span>
-              <RxCountdownTimer />
-              <span>4 months</span>
+              <div>
+                <FaMoneyCheckAlt className='icon' />
+                <span>1,45,690</span>
+              </div>
+              <div>
+                <RxCountdownTimer className='icon' />
+                <span>4 months</span>
+
+              </div>
+             
             </div>
+            <button><BsFillCartPlusFill /> Add to Cart</button>
           </div>
         </div>
       </div>
