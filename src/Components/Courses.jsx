@@ -11,7 +11,7 @@ const Courses = () => {
     <div className='main-container'>
       <div className='container'>
         <div className='img-box'>
-          <img src="./Assets/Group 114.png" />
+          <img src="./Assets/Group 114.png" alt='img' />
         </div>
         <div className='content'>
           <h2>How Our Online Public School Works</h2>
@@ -88,7 +88,7 @@ const Courses = () => {
                 <span>4 months</span>
 
               </div>
-              
+
             </div>
             <button><BsFillCartPlusFill /> Add to Cart</button>
           </div>
@@ -104,9 +104,9 @@ const Courses = () => {
               <div>
                 <RxCountdownTimer className='icon' />
                 <span>4 months</span>
-                
+
               </div>
-              
+
             </div>
             <button><BsFillCartPlusFill />Add to Cart</button>
           </div>
@@ -124,12 +124,48 @@ const Courses = () => {
                 <span>4 months</span>
 
               </div>
-             
+
             </div>
             <button><BsFillCartPlusFill /> Add to Cart</button>
           </div>
         </div>
       </div>
+
+      <div className='contents'>
+        <div className=' content-details'>
+          <h1>Transform your life through education</h1>
+          <p>Ariel Hocsman luanched a new career in software development by taking courses on besnik. what will you be able to do?</p>
+
+          <button>Get Started</button>
+        </div>
+
+        <div className='img-box'>
+          <img src='./Assets/Group 141.png' alt='group' />
+         
+          <div className='images'>
+
+            <div className='img-box'>
+              <img src='./Assets/Group 141.png' alt='group' />
+              <p>Lecture 2</p>
+            </div>
+
+            <div className='img-box'>
+              <img src='./Assets/Group 141.png' alt='group' />
+              <p>Lecture 3</p>
+            </div>
+
+            <div className='img-box'>
+              <img src='./Assets/Group  141.png' alt='group' />
+              <p>Lecture 4</p>
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+
 
     </div>
   )
