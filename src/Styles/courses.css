@@ -132,7 +132,7 @@
     display:flex;
     justify-content:space-around;
     margin-left:50px;
-    margin-top:20px;
+    margin-top:30px;
 }
 .main-container .contents .content-details h1{
     font-size:35px;
@@ -148,7 +148,11 @@
 }
 .main-container .contents .content-details button{
     margin:10px 0px; 
-    width:120px;
-    height:30px;
-    border
+    width:180px;
+    height:50px;
+    border-radius:16px;
+    background-color: #F77E53;
+    color:#fff;
+    border:none;
+    font-size:16px;
 }
