@@ -6,6 +6,7 @@ import { FaMoneyCheckAlt } from 'react-icons/fa'
 import { RxCountdownTimer } from 'react-icons/rx'
 import '../Styles/courses.css'
 import { BsArrowLeft, BsArrowRight } from 'react-icons/bs'
+import {AiFillStar} from 'react-icons/ai'
 
 const Courses = () => {
   return (
@@ -188,6 +189,19 @@ const Courses = () => {
 
             <div className='img'>
               <img src='./Assets/Ellipse(1).png' alt='image' />
+             <div className='des'>
+              <h5>Milena Belmar</h5>
+              <p>Canada</p>
+             <div>
+                <AiFillStar/>
+                 <AiFillStar/>
+                  <AiFillStar/>
+                   <AiFillStar/>
+                    <AiFillStar/>
+             </div>
+              
+             
+             </div>
             </div>
           </div>
 
