@@ -19,11 +19,11 @@
     font-weight:700;
 }
 
-.main-container .container .content-order{
-    width:300px;
+.main-container .container .icons .content-order{
+    width:250px;
     height:200px;
 }
-.main-container .container .content-order .div-icon{
+.main-container .container .icons .content-order .div-icon{
     border: none;
     border-radius: 10px;
     background:rgb(115, 244, 115);
@@ -131,14 +131,18 @@
 .main-container .contents{
     display:flex;
     justify-content:space-around;
-    margin-left:50px;
-    margin-top:30px;
+    margin-top:100px;
 }
+.main-container .contents .content-details{
+    margin-left:30px;
+
+}
+
 .main-container .contents .content-details h1{
     font-size:35px;
     font-weight: 700;
     width:400px;
-
+   
 }
 .main-container .contents .content-details p{
     font-size:18px;
@@ -156,3 +160,69 @@
     border:none;
     font-size:16px;
 }
+
+.main-container .contents  .container{
+    background:#F6F5FA;
+    width:350px;
+    height:380px;
+    border-radius:16px;
+    display:flex;
+    flex-direction:column;
+
+   
+}
+.main-container .contents  .container .image-box {
+    margin-right:500px;
+}
+.main-container .contents  .container .image-box img{
+    width:250px;
+    height:200px;
+    margin-bottom:10px;
+    margin-top:100px;
+
+
+}
+.main-container .contents  .container .images{
+display:flex;
+justify-content:space-evenly;
+flex-direction:row;
+z-index: 1;
+
+}
+
+.main-container .contents  .container .images .first{
+    border:none;
+    border-radius:10px;
+    width:100px;
+    height:130px;
+    background:#fff;
+    margin-right:10px;
+   
+
+}
+.main-container .contents  .container .images .second{
+    border:none;
+    border-radius:10px;
+    width:100px;
+    height:130px;
+    background:#fff;
+    margin-right:10px;
+
+
+}
+.main-container .contents  .container .images .third{
+    border:none;
+    border-radius:10px;
+    width:100px;
+    height:130px;
+    background:#fff;
+    margin-right:10px;
+    
+
+}
+.main-container .contents  .container .images .image img{
+    width:80px;
+    margin:10px;
+
+}
+

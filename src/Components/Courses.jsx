@@ -132,6 +132,7 @@ const Courses = () => {
       </div>
 
       <div className='contents'>
+
         <div className=' content-details'>
           <h1>Transform your life through education</h1>
           <p>Ariel Hocsman luanched a new career in software development by taking courses on besnik. what will you be able to do?</p>
@@ -139,36 +140,46 @@ const Courses = () => {
           <button>Get Started</button>
         </div>
 
-        <div className='img-box'>
-          <img src='./Assets/Group 141.png' alt='group' />
-         
-          <div className='images'>
+        <div className='container'>
 
-            <div className='img-box'>
-              <img src='./Assets/Group 141.png' alt='group' />
-              <p>Lecture 2</p>
-            </div>
-
-            <div className='img-box'>
-              <img src='./Assets/Group 141.png' alt='group' />
-              <p>Lecture 3</p>
-            </div>
-
-            <div className='img-box'>
-              <img src='./Assets/Group  141.png' alt='group' />
-              <p>Lecture 4</p>
-            </div>
-
-
-          </div>
-
+        <div className='image-box'>
+        <img src='./Assets/Group 141.png'alt='rex'/>
+        
+        </div>
+        <div className='images'>
+        <div className='first image'>
+        <img src='./Assets/Image (1).png' alt='cot'/>
+        <p>lecture 2 </p>
         </div>
 
+        <div className='second image'>
+        <img src='./Assets/Image (1).png' alt='video'/>
+        <p>lecture 3 </p>
+        </div>
+
+        <div className='third image'>
+        <img src='./Assets/Image (1).png' alt='cut'/>
+        <p>lecture 4 </p>
+        </div>
+        </div>
+        
+        
+        </div>
       </div>
 
-
+      <div className='user'>
+      <div className='left-class'>
+      <h1>Transform your life through education</h1>
+      <h3>“Love mathematics because of Besnik Academy”</h3>
+      <p>"The curriculum was directly targeted toward applied techniques with high profile projects – real datasets with industry partners. It helped me achieve my career transition goal."</p>
+      </div>
+      </div>
     </div>
+
+
+
   )
 }
 
 export default Courses
+
