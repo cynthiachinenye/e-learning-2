@@ -5,6 +5,7 @@ import { TbSocial } from 'react-icons/tb'
 import { FaMoneyCheckAlt } from 'react-icons/fa'
 import { RxCountdownTimer } from 'react-icons/rx'
 import '../Styles/courses.css'
+import {BsArrowLeft, BsArrowRight} from 'react-icons/bs'
 
 const Courses = () => {
   return (
@@ -174,7 +175,19 @@ const Courses = () => {
           <p>"The curriculum was directly targeted toward applied techniques with high profile projects – real datasets with industry partners. It helped me achieve my career transition goal."</p>
         </div>
         <div className='right-side'>
-         
+        <div className='icons'>
+        <BsArrowLeft/>
+        <BsArrowRight/>
+        </div>
+        <div className='content'>
+        <h3>“There is so much to see and do all over world”</h3>
+        <p>"The curriculum was directly targeted toward applied techniques with high profile projects – real datasets with industry partners. It helped me achieve my career transition goal."</p>
+        
+        <div className='img'>
+        <img src='./Assets/Ellipse(1).png' alt='image'/>
+        </div>
+        </div>
+          
         </div>
       </div>
     </div>
