@@ -142,37 +142,40 @@ const Courses = () => {
 
         <div className='container'>
 
-        <div className='image-box'>
-        <img src='./Assets/Group 141.png'alt='rex'/>
-        
-        </div>
-        <div className='images'>
-        <div className='first image'>
-        <img src='./Assets/Image (1).png' alt='cot'/>
-        <p>lecture 2 </p>
-        </div>
+          <div className='image-box'>
+            <img src='./Assets/Group 141.png' alt='rex' />
 
-        <div className='second image'>
-        <img src='./Assets/Image (1).png' alt='video'/>
-        <p>lecture 3 </p>
-        </div>
+          </div>
+          <div className='images'>
+            <div className='first image'>
+              <img src='./Assets/Image (1).png' alt='cot' />
+              <p>lecture 2 </p>
+            </div>
 
-        <div className='third image'>
-        <img src='./Assets/Image (1).png' alt='cut'/>
-        <p>lecture 4 </p>
-        </div>
-        </div>
-        
-        
+            <div className='second image'>
+              <img src='./Assets/Image (1).png' alt='video' />
+              <p>lecture 3 </p>
+            </div>
+
+            <div className='third image'>
+              <img src='./Assets/Image (1).png' alt='cut' />
+              <p>lecture 4 </p>
+            </div>
+          </div>
+
+
         </div>
       </div>
 
       <div className='user'>
-      <div className='left-class'>
-      <h1>Transform your life through education</h1>
-      <h3>“Love mathematics because of Besnik Academy”</h3>
-      <p>"The curriculum was directly targeted toward applied techniques with high profile projects – real datasets with industry partners. It helped me achieve my career transition goal."</p>
-      </div>
+        <div className='left-class'>
+          <h1>Transform your life through education</h1>
+          <h3>“Love mathematics because of Besnik Academy”</h3>
+          <p>"The curriculum was directly targeted toward applied techniques with high profile projects – real datasets with industry partners. It helped me achieve my career transition goal."</p>
+        </div>
+        <div className='right-side'>
+         
+        </div>
       </div>
     </div>
 
