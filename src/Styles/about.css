@@ -151,7 +151,7 @@
     font-size:40px;
     font-weight:500;
 }
-.main-container .upgrade .categories .carts .middle span{
+.main-container .upgrade .categories .carts span{
     font-size:12px;
     
 }
@@ -190,6 +190,21 @@
 
 .main-container .upgrade .categories .Medium .bottom-side button{
     border:1px solid #F6C07A;
+    border-radius:10px;
+    color:
+     #F6C07A;
+
+}
+.main-container .upgrade .categories  .Premium{
+    background-color:#FEF0C3;
+}
+.main-container .upgrade .categories  .Premium .top {
+    background:#F77E53;
+    box-shadow: 0px 0px 46px -3px rgba(0,0,0,0.1);
+}
+
+.main-container .upgrade .categories .Premium .bottom-side button{
+    border:1px solid #F77E53;
     border-radius:10px;
     color: #F6C07A;
 
