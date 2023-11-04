@@ -74,7 +74,8 @@ const About = () => {
 
                         </div>
                         <div className='middle'>
-                            <p>$ 65</p>
+                            <p><span>$ </span>65</p>
+                            
                             <ul>
                                 <li>1 Day Event</li>
                                 <li>Speaker</li>
