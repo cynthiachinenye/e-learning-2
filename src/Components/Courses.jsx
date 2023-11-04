@@ -6,7 +6,7 @@ import { FaMoneyCheckAlt } from 'react-icons/fa'
 import { RxCountdownTimer } from 'react-icons/rx'
 import '../Styles/courses.css'
 import { BsArrowLeft, BsArrowRight } from 'react-icons/bs'
-import {AiFillStar} from 'react-icons/ai'
+import { AiFillStar } from 'react-icons/ai'
 
 const Courses = () => {
   return (
@@ -176,12 +176,25 @@ const Courses = () => {
           <p>"The curriculum was directly targeted toward applied techniques with high profile projects – real datasets with industry partners. It helped me achieve my career transition goal."</p>
           <div className='img'>
             <img src='./Assets/Ellipse.png' alt='image' />
+            <div className='des'>
+            <h5>Milena Belmar</h5>
+            <p>Canada</p>
+            <div className='star-icon'>
+              <AiFillStar />
+              <AiFillStar />
+              <AiFillStar />
+              <AiFillStar />
+              <AiFillStar />
+            </div>
+
+
           </div>
+            </div>
         </div>
         <div className='right-side'>
           <div className='icons'>
             <BsArrowLeft className='icon' />
-            <BsArrowRight className='icon'/>
+            <BsArrowRight className='icon' />
           </div>
           <div className='content'>
             <h3>“There is so much to see and do all over world”</h3>
@@ -189,19 +202,19 @@ const Courses = () => {
 
             <div className='img'>
               <img src='./Assets/Ellipse(1).png' alt='image' />
-             <div className='des'>
-              <h5>Milena Belmar</h5>
-              <p>Canada</p>
-             <div>
-                <AiFillStar/>
-                 <AiFillStar/>
-                  <AiFillStar/>
-                   <AiFillStar/>
-                    <AiFillStar/>
-             </div>
-              
-             
-             </div>
+              <div className='des'>
+                <h5>Milena Belmar</h5>
+                <p>Canada</p>
+                <div className='star-icon'>
+                  <AiFillStar />
+                  <AiFillStar />
+                  <AiFillStar />
+                  <AiFillStar />
+                  <AiFillStar />
+                </div>
+
+
+              </div>
             </div>
           </div>
 
