@@ -70,7 +70,7 @@ const About = () => {
 
                         <div className='top'>
 
-                            Regular
+                          <p>  Regular</p>
 
                         </div>
                         <div className='middle'>
