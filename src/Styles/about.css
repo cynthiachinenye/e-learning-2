@@ -124,13 +124,20 @@
     flex-direction:column;
     width:240px;
     height:366px;
+    box-shadow:rgba(0,0,0,0.24) 0px, 0px,8px;
+   
     
 }       
 .main-container .upgrade .categories .carts .top{
-   box-shadow:rgba(0,0,0,0.24) 0px, 0px,8px;
-    width:360px;
+    width:240px;
+    border-top: none;
+    border-right:none;
+    border-left:none;
     height:50px;
     color: #fff;
+    border-top-right-radius:16px;
+    border-top-left-radius:16px;
+ 
     padding:30px 100px;
 }
 .main-container .upgrade .categories  .regular {
@@ -158,10 +165,12 @@
 
 .main-container .upgrade .categories .carts .middle  ul{
     padding-top:10px;
+    padding-left: 30px;
 }
 .main-container .upgrade .categories .carts .middle  ul li{
    list-style-type:circle;
     padding:10px;
+    padding-left: 10px;
 }
 .main-container .upgrade .categories .carts .bottom-side button{
     width:170px;
